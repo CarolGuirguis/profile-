@@ -1,0 +1,567 @@
+.headnavbar{
+   
+    position:fixed;
+    z-index: 3;
+    top:0;
+    left:0;
+    text-align: center;
+    box-shadow:  0 4px 2px -2px  rgba(239,239,239,255);
+    width: 100%;
+    background-color: white;
+    
+}
+.headnavbar li{
+    display: inline-block;
+    font-weight: 500;
+    margin-left: 4rem;
+}
+.component.two.firstitem:hover ~ .headnavbar ul li.home {
+    text-decoration: underline ;
+}
+.component.two.seconditem:hover ~ .headnavbar ul li.about {
+    text-decoration: underline ;
+}
+.thirdcomponent.thirditem:hover ~ .headnavbar ul li.skills {
+    text-decoration: underline ;
+}
+.component.two.fourthitem:hover ~ .headnavbar ul li.skills {
+    text-decoration: underline ;
+}
+.component.two.fifthitem:hover ~ .headnavbar ul li.experiences {
+    text-decoration: underline ;
+}
+.sixthcomponent.sixthitem:hover ~ .headnavbar ul li.portfolio {
+    text-decoration: underline ;
+}
+.seventhcomponent.seventhitem:hover ~ .headnavbar ul li.pricing {
+    text-decoration: underline ;
+}
+.eighthcomponent.eighthitem:hover ~ .headnavbar ul li.blog {
+    text-decoration: underline ;
+}
+.ninthcomponent.ninthitem:hover ~ .headnavbar ul li.blog {
+    text-decoration: underline ;
+}
+.tenthcomponent.tenthitem:hover ~ .headnavbar ul li.contact {
+    text-decoration: underline ;
+}
+.lastcomponent.lastitem:hover ~ .headnavbar ul li.contact {
+    text-decoration: underline ;
+}
+.component{
+    margin-top: 5rem;
+    display: grid;
+  
+
+}
+
+.mobilenavbar{
+    left: 0;
+    margin-top: 1.5rem;
+    display: none;
+}
+.headerabout{
+    font-weight: bold;
+    font-size: x-large;
+}
+.two{
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0.1rem;
+}
+.three{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.borderimage{
+   border: 6px solid rgba(215,215,215,255);
+   box-shadow: 0 0 0 6px rgba(239,239,239,255);
+   border-radius: 50%;
+   
+}
+.name{
+    font-weight: bold;
+    font-size: xx-large;
+    font:rgba(72,72,72,255);
+    
+}
+.title{
+    font-size: large;
+    font: rgba(70,70,70,255);
+    margin-bottom: 1rem;
+}
+.fontawesomeline{
+    margin-top: 1rem;
+
+}
+.fontawesome{
+    margin-right: 2rem;
+}
+.elementslist ul{
+    
+    margin-top: 0.5rem;
+    padding: 0;
+    margin-bottom: 1rem;
+    
+}
+
+
+.elementslist li{
+    display: inline-block;
+    border: 0.1rem solid rgba(114,227,197,255);
+    margin-left: 0rem;
+    margin-right: 1rem;
+    padding:0.1rem;
+    border-radius: 0.2rem;
+   
+}
+.download{
+    background-color:rgba(58,214,190,255);
+    border-radius: 1rem;
+}
+.secondimage{
+    width:30rem;
+    height: 200px;
+}
+.thirdcomponent{
+    margin-top: 5rem;
+}
+.thirdheader{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    
+}
+.thirdcomponents{
+ width: 300px;
+ box-shadow: 0 0 10px lightgray;
+ height: 12rem;
+}
+.thirdtitle{
+    font-size:large;
+    font-weight: bold;   
+    margin-left: 1rem;
+}
+.thirdcomponentsimages{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+    height: 1.2rem;
+    width: 1.2rem;
+}
+.thirdtext{
+    margin-left: 1rem;
+    font-size: smaller;
+}
+.fourthheader{
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 4rem;
+}
+
+.flexpercentage{
+    display: flex;
+}
+.progressnumber{
+    margin-left: auto;
+}
+.progressbar{
+    margin-bottom: 0.2rem;
+}
+.fifthheader{
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 4rem;
+}
+.rightfifthheader{
+    font-weight: bold;
+    font-size: x-large;
+   
+}
+.componentthreerows{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 2rem;
+ 
+}
+.row{
+    display: block;
+    width: 300px;
+    box-shadow: 0 0 10px lightgray;
+    height: 12rem;
+}
+.firstrow{
+    margin-top: 2.5rem;
+}
+.fifthrowstitle{
+    font-weight: bold;
+    font-size: x-small;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.fifthrowsyear{
+    margin-top: 0.5rem;
+    color: rgba(35,210,183,255);
+    margin-left: 1rem;
+    font-size: smaller;
+}
+.university{
+    color: rgba(35,210,183,255);
+}
+.fifthrowstext{
+    margin-top: 0.2rem;
+    margin-left: 1rem;
+    font-size: small;
+}
+.fifthlist{
+    padding: 0;
+    margin-left: 1rem;
+}
+.marginright{
+    margin-right: 7rem;
+}
+.sixthcomponent li{
+    display: inline-block;
+    font-weight: 500;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    
+}
+.leftfourth{
+    margin-right: 3rem;
+}
+.leftfifth{
+    margin-bottom: 5rem;
+}
+.rightfifth{
+    margin-bottom: 5rem;
+}
+.sixthcomponent{
+    margin-bottom: 5rem;
+}
+.sixthcomponent ul{
+    margin-left: 9rem;
+}
+.color{
+    color:rgba(58,214,190,255);
+}
+.ucolor{
+   text-decoration-color: rgba(58,214,190,255);
+    
+}
+.seventhcomponent{
+    margin-bottom: 5rem;
+}
+.sixthcomponentsimages{
+   
+    height: 12rem;
+    width: 20rem;
+}
+.seventhcomponenticon{
+   
+    margin-top: 2rem;
+}
+.seventh{
+    text-align: center;
+    height: 17rem;
+}
+.seventhtitle{
+    font-weight: 550;
+    margin-top: 0.2rem;
+}
+.seventhtitlexp{
+    margin-top: 0.1rem;
+    font-size: x-small;
+}
+.seventhprice{
+    font-weight: 600;
+    margin-top: 0.3rem;
+    font-size: large;
+}
+.seventhitems{
+    font-size: small;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+}
+.eighth{
+   
+    height: 23rem;
+}
+.eigthimages{
+    width: 100%;
+    height: 50%;
+}
+.eigthtitle{
+    margin-top: 0.4rem;
+    color:darkgrey;
+    margin-left: 0.4rem;
+    font-weight: bold;
+    
+}
+.eigthtitlexp{
+    margin-top: 0.4rem;
+    font-weight: bold;
+    font-size: x-small;
+    margin-left: 0.4rem;
+}
+.eigthtext{
+    margin-top: 0.6rem;
+    font-size: small;
+    margin-bottom: 0.6rem;
+    margin-left: 0.4rem;
+}
+.eigthlink{
+    margin-left: 0.4rem;
+    font-size: small;
+}
+.eighthcomponent{
+    margin-bottom: 5rem;
+}
+.ninthimages{
+    border: 6px solid rgba(58,214,190,255);
+    border-radius: 50%;
+    margin-top: 1rem;
+    height: 10rem;
+    width: 10rem;
+}
+.center{
+    text-align: center;
+}
+.ninthtext{
+    margin-top: 1rem;
+    font-size: x-small;
+    
+}
+.ninthname{
+    margin-top: 3rem;
+    font-size: x-small;
+    font-weight: bold;
+}
+.ninthrole{
+    
+    font-size: x-small;
+    font-weight: bold;
+}
+.ninth{
+   
+    height: 22rem;
+}
+.fullcircle {
+    height: 25px;
+    width: 25px;
+    background-color: rgba(58,214,190,255);
+    border-radius: 50%;
+    display: inline-block;
+
+  }
+  .emptycircle {
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid rgba(58,214,190,255);
+
+  }
+
+  .ninthfooter{
+    margin-top: 3rem;
+    text-align: center;
+    margin-right: 6rem;
+    
+  }
+  .notshown{
+    display: none;
+  }
+  .ninthcomponent{
+    margin-bottom: 5rem;
+  }
+  .tenth{
+    height: 20rem;
+}
+
+.tenthcircle{
+    margin-top: 2rem;
+    margin-left: 6.5rem;
+    border: 2px solid rgba(58,214,190,255);
+    border-radius: 50%;
+    padding: 3rem;
+    height: 7rem;
+    width: 7rem;
+}
+.tenthtitle{
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size: small;
+}
+.tenthaddress{
+    margin-top: 2rem;
+  
+    font-size: x-small;
+}
+.tenth{
+    margin-bottom: 2rem;
+}
+.margin{
+    margin-top: 1rem;
+}
+.right{
+    margin-top: 1rem;
+    margin-left: 5rem;
+    
+    
+}
+.pagefooter{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+.buttoncolor{
+    background-color:rgba(58,214,190,255);
+}
+.fontawesomefooter{
+    margin-left: 5rem;
+}
+.circular-progress95{
+    height: 5rem;
+    width:5rem;
+    border-radius: 50%;
+    background: conic-gradient(rgba(35,210,183,255) 342deg,#ededed 0deg);
+}
+.circular-progress55{
+    height: 5rem;
+    width:5rem;
+    border-radius: 50%;
+    background: conic-gradient(rgba(35,210,183,255) 198deg,#ededed 0deg);
+  
+}
+.circular-progress86{
+    height: 5rem;
+    width:5rem;
+    border-radius: 50%;
+    background: conic-gradient(rgba(35,210,183,255) 309deg,#ededed 0deg);
+   
+}
+.circular-progress60{
+    height: 5rem;
+    width:5rem;
+    border-radius: 50%;
+    background: conic-gradient(rgba(35,210,183,255) 216deg,#ededed 0deg);
+    
+}
+.progresscircles{
+    margin-top: 0rem;
+    margin-left: 1rem;
+}
+.hellopic{
+    margin-bottom: 1rem;
+    width: 8rem;
+}
+
+.carousel-indicators .active{
+    background-color:rgba(35,210,183,255);
+   
+    
+    
+}
+
+
+.carousel-indicators .circle {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 100%;
+    border: 2px solid rgba(35,210,183,255);
+    
+    
+}
+
+@media screen and (max-width: 600px)   {
+
+    .component{
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr ;
+    }
+    .firstaboutpicture{
+        order: -1;
+    }
+    .headnavbar{
+        display: none;
+    }
+    .thirdcomponents{
+        width: 100%;
+    }
+    .firstaboutbox{
+        width: 100%;
+        text-align: center;
+        
+    }
+    .firstaboutpicture{
+        width: 100%;
+        text-align: center;
+        
+    }
+    .secondaboutbox{
+        width: 100%;
+        text-align: center;
+        
+    }
+    .row {
+        width: 100%;
+        text-align: left;
+        margin-left: 0.2rem;
+    }
+    .fifthheader{
+        text-align: center;
+        margin-left: 0;
+    }
+    .rightfifthheader{
+        text-align: center;
+        margin-left: 0;
+    }
+    .sixthcomponent ul{
+        margin-left: 0rem;
+        
+    }
+    .thirdheader {
+        text-align: center;
+        margin-right: 0;
+    }
+    .sixthcomponentsimages{
+        margin-left: 6rem;
+    }
+  .thirdcomponents{
+    margin-bottom: 3rem;
+  }
+  .shown{
+    display: none;
+  }
+  .notshown{
+    display: inline-block;
+  }
+  .ninthfooter{
+    margin-right: 0rem;
+  }
+  .footerleft{
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .footerright{
+    text-align: center;
+    margin-right: 4rem;
+  }
+ .mobilenavbar{
+    display: block;
+ }
+ .tenthcircle{
+    margin-left: 13.5rem;
+ }
+ .component.two.progresscircles{
+    grid-template-columns: 1fr 1fr;
+ }
+ .progresscircles{
+    margin-top: 0rem;
+    
+ }
+ .hellopic{
+    margin-top: 1rem;
+ }
+ 
+}

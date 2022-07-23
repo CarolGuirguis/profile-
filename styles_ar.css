@@ -1,0 +1,128 @@
+
+html:lang(ar)  .headnavbar{
+  direction: rtl;
+}
+html:lang(ar) .component{
+    direction: rtl;
+    text-align: right;
+  }
+html:lang(ar) .fontawesomeline{
+    direction: ltr;
+  }
+html:lang(ar) .thirdtitle{
+    direction: rtl;
+    margin-right: 1rem;
+}
+
+html:lang(ar) .thirdtext{
+    margin-right: 1rem;
+}
+html:lang(ar) .thirdcomponentsimages{
+    
+    margin-right: 1rem;
+    
+}
+html:lang(ar) .leftfourth{
+    
+    direction:ltr;
+    margin-left:3rem;
+    
+}
+html:lang(ar) .fifthrowstext{
+    
+    
+    margin-right:1rem;
+    
+}
+html:lang(ar) .fifthrowstitle{
+    
+    
+    margin-right:1rem;
+    
+}
+html:lang(ar) .fifthrowsyear{
+    
+    
+    margin-right:1rem;
+    
+}
+html:lang(ar) .fifthlist li{
+    margin-right: 1rem;
+}
+Html:lang(ar) .sixthcomponent{
+    direction: rtl;
+}
+
+html:lang(ar) .eigthlink{
+    
+    
+    margin-right:1rem;
+    
+}
+html:lang(ar) .eigthtext {
+    margin-right: 1rem;
+}
+html:lang(ar) .eigthtitlexp{
+    
+    
+    margin-right:1rem;
+    
+}
+html:lang(ar) .eigthtitle {
+    margin-right: 1rem;
+}
+html:lang(ar) .ninthfooter{
+    direction: rtl;
+    margin-left: 10rem;
+}
+html:lang(ar) .lastcomponentleft{
+    
+    margin-left: 3rem;
+}
+html:lang(ar) .footerright{
+    direction: ltr;
+}
+html:lang(ar) .thirdheader.marginright{
+   margin-right: 0rem;
+   margin-left: 7rem;
+}
+html:lang(ar) .tenthcircle{
+   margin-left: 0rem;
+   margin-right: 6.5rem;
+ }
+@media screen and (max-width: 600px)   {
+    html:lang(ar) .row {
+        width: 100%;
+        text-align: left;
+        margin-right: 0.2rem;
+        margin-left: 0rem;
+    }
+    html:lang(ar) .sixthcomponentsimages{
+        margin-right: 6rem;
+        margin-left: 0rem;
+    }
+    html:lang(ar) .tenthcircle{
+        margin-left: 0rem;
+        margin-right: 13.5rem;
+    }
+    html:lang(ar) .ninthfooter{
+        
+        margin-right: 7rem;
+    }
+    html:lang(ar) .lastcomponentright{
+        
+        margin-right: 3rem;
+    }
+
+    html:lang(ar) .row{
+        direction: rtl;
+        text-align: right;
+    }
+    html:lang(ar) .thirdheader.marginright {
+        margin-left: 0rem;
+    }
+    html:lang(ar) .rightfourth {
+        margin-right: 2rem;
+        margin-top: 1rem;
+    }
+}
